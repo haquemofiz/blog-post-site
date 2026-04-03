@@ -1,0 +1,126 @@
+.post-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-header h1 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.post-meta {
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.category {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.post-content {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.post-actions {
+  margin-bottom: 2rem;
+}
+
+.like-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.like-btn:hover {
+  background: #764ba2;
+}
+
+.comments-section {
+  margin-top: 3rem;
+}
+
+.comments-section h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.comment-form {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.comment-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.comment-form button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.comment {
+  background: white;
+  border-left: 4px solid #667eea;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.comment-author {
+  font-weight: bold;
+  color: #667eea;
+  margin: 0 0 0.5rem 0;
+}
+
+.comment-content {
+  color: #333;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.comment-date {
+  color: #999;
+  font-size: 0.85rem;
+  margin: 0.5rem 0 0 0;
+}
